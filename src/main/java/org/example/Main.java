@@ -1,6 +1,8 @@
 package org.example;
 
 import org.example.clases.Alumno;
+import org.example.herencia.Consultor;
+import org.example.herencia.Empleado;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -33,6 +35,16 @@ public class Main {
         System.out.println("La id del alumno 1 es: " + alumno1.getId());
         System.out.println("El nombre del alumno 1 es: " + alumno1.getNombre());
         System.out.println("El apellido del alumno 1 es: " + alumno1.getApellido());
-        
+
+        Empleado empleado = new Empleado();
+        System.out.println("--------------------");
+        System.out.println("La id del empleado es: " + empleado.getId());
+        System.out.println("El nombre del empleado es: " + empleado.getNombre());
+
+        Consultor consultor = new Consultor();
+        System.out.println("--------------------");
+        System.out.println("La id del consultor es: " + consultor.getId());
+        System.out.println("El nombre del consultor es: " + consultor.getNombre());
+
     }
 }
