@@ -9,6 +9,6 @@ public class Main {
 
         Alumno alumno1 = new Alumno();
         Alumno alumno2 = new Alumno(1, "Juan", "Perez");
-        
+
     }
 }
