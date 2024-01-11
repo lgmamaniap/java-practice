@@ -3,6 +3,8 @@ package org.example;
 import org.example.clases.Alumno;
 import org.example.herencia.Consultor;
 import org.example.herencia.Empleado;
+import org.example.herencia.Jefe;
+import org.example.herencia.Persona;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -46,5 +48,18 @@ public class Main {
         System.out.println("La id del consultor es: " + consultor.getId());
         System.out.println("El nombre del consultor es: " + consultor.getNombre());
 
+        // Polimosfismo
+
+        Persona vector[] = new Persona[4];
+        vector[0] = new Persona();
+        vector[1] = new Empleado();
+        vector[2] = new Consultor();
+        vector[3] = new Jefe();
+
+        Persona personaPrueba = new Persona();
+        Consultor consultorPrueba = new Consultor();
+
+        // Las clases que heredan pueden ser asignadas a una clase (padre)
+        personaPrueba = consultorPrueba;
     }
 }
