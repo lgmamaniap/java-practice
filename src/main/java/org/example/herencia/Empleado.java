@@ -1,9 +1,9 @@
 package org.example.herencia;
 
 public class Empleado extends Persona {
-  int num_legajo;
-  String cargo;
-  Double sueldo;
+  private int num_legajo;
+  private String cargo;
+  private Double sueldo;
 
   public Empleado() {}
 

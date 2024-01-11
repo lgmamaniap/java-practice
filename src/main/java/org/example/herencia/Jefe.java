@@ -1,8 +1,8 @@
 package org.example.herencia;
 
 public class Jefe extends Persona {
-  int id_jefe;
-  String departamento_jefe;
+  private int id_jefe;
+  private String departamento_jefe;
 
   public Jefe() {}
 

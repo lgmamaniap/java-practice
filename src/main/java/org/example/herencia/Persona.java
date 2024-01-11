@@ -1,12 +1,12 @@
 package org.example.herencia;
 
 public class Persona {
-  int id;
-  String dni;
-  String nombre;
-  String apellido;
-  String domicilio;
-  String telefono;
+  private int id;
+  private String dni;
+  private String nombre;
+  private String apellido;
+  private String domicilio;
+  private String telefono;
 
   public Persona() {}
 

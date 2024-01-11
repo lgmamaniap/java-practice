@@ -1,8 +1,8 @@
 package org.example.herencia;
 
 public class Consultor extends Persona {
-  String nombre_consultora;
-  int num_consultor;
+  private String nombre_consultora;
+  private int num_consultor;
 
   public Consultor() {}
 
