@@ -5,6 +5,7 @@ import org.example.herencia.Consultor;
 import org.example.herencia.Empleado;
 import org.example.herencia.Jefe;
 import org.example.herencia.Persona;
+import org.example.pokemones.EjercicioIntegrador;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -61,5 +62,9 @@ public class Main {
 
         // Las clases que heredan pueden ser asignadas a una clase (padre)
         personaPrueba = consultorPrueba;
+
+        // Ejercicios con pokemons
+        EjercicioIntegrador ejercicio = new EjercicioIntegrador();
+        ejercicio.ejecutarPoderes();
     }
 }
