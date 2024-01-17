@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.clases.Alumno;
+import org.example.collections.Lists;
 import org.example.herencia.Consultor;
 import org.example.herencia.Empleado;
 import org.example.herencia.Jefe;
@@ -66,5 +67,9 @@ public class Main {
         // Ejercicios con pokemons
         EjercicioIntegrador ejercicio = new EjercicioIntegrador();
         ejercicio.ejecutarPoderes();
+
+        // Listas
+        Lists prueba = new Lists();
+        prueba.ejemplos();
     }
 }
