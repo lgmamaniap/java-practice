@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.clases.Alumno;
+import org.example.collections.LinkedLists;
 import org.example.collections.Lists;
 import org.example.herencia.Consultor;
 import org.example.herencia.Empleado;
@@ -71,5 +72,9 @@ public class Main {
         // Listas
         Lists prueba = new Lists();
         prueba.ejemplos();
+
+        // LinkedLists
+        LinkedLists linkedLists = new LinkedLists();
+        linkedLists.ejemplos();
     }
 }
