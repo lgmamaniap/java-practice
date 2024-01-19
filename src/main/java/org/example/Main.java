@@ -3,6 +3,7 @@ package org.example;
 import org.example.clases.Alumno;
 import org.example.collections.LinkedLists;
 import org.example.collections.Lists;
+import org.example.collections.Maps;
 import org.example.collections.Stacks;
 import org.example.herencia.Consultor;
 import org.example.herencia.Empleado;
@@ -81,5 +82,9 @@ public class Main {
         // Pilas
         Stacks stacks = new Stacks();
         stacks.ejemploStacks();
+
+        // Maps
+        Maps maps = new Maps();
+        maps.ejemploMaps();
     }
 }
