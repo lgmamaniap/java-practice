@@ -30,5 +30,10 @@ public class Maps {
     if (mapaEmpleados.get(3) == null) {
       System.out.println("No existe el empleado con id 3");
     }
+
+    // Recorriendo el mapa
+    for (Map.Entry<Integer, String> entry : mapaEmpleados.entrySet()) {
+      System.out.println("El nombre del empleado con id " + entry.getKey() + " es: " + entry.getValue());
+    }
   }
 }
