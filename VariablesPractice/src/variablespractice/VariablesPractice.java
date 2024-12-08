@@ -25,6 +25,11 @@ public class VariablesPractice {
         System.out.printf("Valor de int: %d, valor de float: %f%n", integerVariable, floatVariable);
         System.out.printf("Valor de long: %d, valor de double: %f%n", longVariable, doubleVariable);
         System.out.printf("Valor de char: %c, valor de boolean: %b%n", charVariable, booleanVariable);
+        
+        // No es un tipo de dato primitivo
+        String text;
+        text = "Cadena de caracteres";
+        System.out.printf("Cadena de caractes: %s%n", text);
     }
     
 }
