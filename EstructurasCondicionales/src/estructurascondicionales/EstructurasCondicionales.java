@@ -10,18 +10,38 @@ public class EstructurasCondicionales {
         // Estructura condicional if
         int numero1, numero2;
         
-        System.out.println("Ingrese el numero uno: ");
+        System.out.println("Enter the number one: ");
         numero1 = teclado.nextInt();
         
-        System.out.println("Ingrese el numero dos: ");
+        System.out.println("Enter the number two: ");
         numero2 = teclado.nextInt();
         
         if (numero1 == numero2) {
-            System.out.printf("Los números ingresados son iguales%n");
+            System.out.printf("The numbers entered are equals%n");
         } else if (numero1 > numero2) {
-            System.out.printf("El número %d es mayor%n", numero1);
+            System.out.printf("The number %d is greater%n", numero1);
         } else {
-            System.out.printf("El número %d es mayor%n", numero2);
+            System.out.printf("The number %d is greater%n", numero2);
+        }
+        
+        // Estructura condicional switch
+        switch (numero1) {
+            case 1:
+                System.out.println("The number one entered is 1");
+                break;
+            case 2:
+                System.out.println("The number one entered 2");
+                break;
+            case 3:
+                System.out.println("The number one entered 3");
+                break;
+        }
+        
+        boolean mayorDiez = numero1 > 10;
+        if (mayorDiez) {
+            System.out.println("The number one is greater than 10");
+        } else {
+            System.out.println("The number one is less or equal than 10");
         }
         
     }
